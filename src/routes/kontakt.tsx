@@ -25,12 +25,6 @@ const cards = [
     href: "tel:+46728722456",
   },
   {
-    icon: Mail,
-    label: "E-post",
-    value: "info@mmbvarmland.se",
-    href: "mailto:info@mmbvarmland.se",
-  },
-  {
     icon: Instagram,
     label: "Instagram",
     value: "@mmbvarmland",

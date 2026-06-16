@@ -27,7 +27,6 @@ export function SiteFooter() {
           <div className="text-sm font-semibold mb-3 uppercase tracking-wider text-muted-foreground">Kontakt</div>
           <ul className="space-y-2 text-sm">
             <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-primary" /> 072 - 872 24 56</li>
-            <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-primary" /> info@mmbvarmland.se</li>
             <li className="flex items-center gap-3 pt-2">
               <a href="#" aria-label="Instagram" className="hover:text-primary transition-colors"><Instagram className="h-5 w-5" /></a>
               <a href="#" aria-label="Facebook" className="hover:text-primary transition-colors"><Facebook className="h-5 w-5" /></a>
