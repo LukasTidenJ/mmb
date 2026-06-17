@@ -3,12 +3,12 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { ArrowRight } from "lucide-react";
 
-import entragang from "@/assets/portfolio-entragang.png.asset.json";
-import garageuppfart1 from "@/assets/portfolio-garageuppfart-1.png.asset.json";
-import industristen from "@/assets/portfolio-industristen.png.asset.json";
-import garageuppfart2 from "@/assets/portfolio-garageuppfart-2.png.asset.json";
-import uppfartKantsten from "@/assets/portfolio-uppfart-kantsten.png.asset.json";
-import drenering from "@/assets/portfolio-dranering.png.asset.json";
+import entragang from "@/assets/entregang.png.asset.json";
+import garageuppfart1 from "@/assets/garageuppfart.png.asset.json";
+import industristen from "@/assets/industrimark.png.asset.json";
+import garageuppfart2 from "@/assets/uppfart2.png.asset.json";
+import uppfartKantsten from "@/assets/stenlaggning.png.asset.json";
+import drenering from "@/assets/dranering.png.asset.json";
 
 export const Route = createFileRoute("/vara-arbeten")({
   head: () => ({
