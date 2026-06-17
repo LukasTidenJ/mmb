@@ -3,12 +3,12 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { ArrowRight } from "lucide-react";
 
-import entragang from "@/assets/entregang.png.asset.json";
-import garageuppfart1 from "@/assets/garageuppfart.png.asset.json";
-import industristen from "@/assets/industrimark.png.asset.json";
-import garageuppfart2 from "@/assets/uppfart2.png.asset.json";
-import uppfartKantsten from "@/assets/stenlaggning.png.asset.json";
-import drenering from "@/assets/dranering.png.asset.json";
+import entragang from "@/assets/entregang.png";
+import garageuppfart1 from "@/assets/garageuppfart.png";
+import industristen from "@/assets/industrimark.png";
+import garageuppfart2 from "@/assets/uppfart2.png";
+import uppfartKantsten from "@/assets/stenlaggning.png";
+import drenering from "@/assets/dranering.png";
 
 export const Route = createFileRoute("/vara-arbeten")({
   head: () => ({
@@ -35,42 +35,42 @@ const projects = [
   {
     title: "Entrégång i marksten",
     text: "Rak och stilren gång med uppbyggda kanter för ett tydligt och hållbart intryck.",
-    image: entragang.url,
+    image: entragang,
     alt: "Stensatt entrégång med kantsten på båda sidor",
     position: "object-center",
   },
   {
     title: "Garageuppfart i ljus sten",
     text: "Stor uppfart med rena linjer och jämn läggning som ger ett luftigt helhetsuttryck.",
-    image: garageuppfart1.url,
+    image: garageuppfart1,
     alt: "Stor garageuppfart med ljus marksten",
     position: "object-center",
   },
   {
     title: "Industrimark med marktegel",
     text: "Slitstark stenläggning med brunnsdetaljer anpassad för hårt använda ytor.",
-    image: industristen.url,
+    image: industristen,
     alt: "Större stenlagd yta med mönstrad marksten och brunn",
     position: "object-[center_58%]",
   },
   {
     title: "Större stenläggning",
     text: "Bred yta lagd med fokus på raka skarvar, precision och ett enhetligt resultat.",
-    image: garageuppfart2.url,
+    image: garageuppfart2,
     alt: "Bred stenlagd yta framför tomt med ljus marksten",
     position: "object-center",
   },
   {
     title: "Uppfart med kantstöd",
     text: "Marksten kombinerad med mur och tydliga nivåskillnader för en stabil och snygg helhet.",
-    image: uppfartKantsten.url,
+    image: uppfartKantsten,
     alt: "Stenlagd uppfart med kantstöd och mur i bakgrunden",
     position: "object-[center_42%]",
   },
   {
     title: "Dräneringsarbete",
     text: "Noggrant markarbete längs husgrund med dräneringsrör, makadam och rätt fall.",
-    image: drenering.url,
+    image: drenering,
     alt: "Dräneringsschakt längs husgrund med rör och makadam",
     position: "object-[center_35%]",
   },
